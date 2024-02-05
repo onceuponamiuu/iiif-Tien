@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://onceuponamiuu.github.io/iiif-Tien/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://349dbf25-b518-4220-9f48-3c3497f4aa34",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b9f9d171-def8-484d-9c60-82c4db0f6b02",
+      "@type" : "sc:Canvas",
+      "label" : "Tet Lunar new year",
+      "height" : "1024",
+      "width" : "1024",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3b131b5e-7a2f-416d-a37f-ac830b6de2ad",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://onceuponamiuu.github.io/New-year-Mekong-Delta/images/am-thuc-rieng-ngay-tet/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://onceuponamiuu.github.io/New-year-Mekong-Delta/images/am-thuc-rieng-ngay-tet",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 910,
+          "width" : 1366
+        },
+        "on" : "http://b9f9d171-def8-484d-9c60-82c4db0f6b02"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
